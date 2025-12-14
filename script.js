@@ -1,4 +1,4 @@
-const SENHA_ADMIN = "1234";
+const SENHA_ADMIN = "438683";
 
 function buscarFerias() {
   const nome = document.getElementById("nomeBusca").value.toLowerCase();
@@ -37,6 +37,7 @@ function salvar() {
   localStorage.setItem("ferias", JSON.stringify(dados));
   alert("Salvo com sucesso");
 }
+
 
 
 
