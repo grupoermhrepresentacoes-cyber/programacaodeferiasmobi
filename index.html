@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mês de Férias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Mês de Férias</h1>
+
+    <input type="text" id="nomeBusca" placeholder="Digite seu nome">
+    <button onclick="buscarFerias()">Consultar</button>
+
+    <p id="resultado"></p>
+
+    <hr>
+
+    <button class="admin" onclick="modoAdmin()">Modo Administrador</button>
+
+    <div id="adminArea" class="hidden">
+      <h2>Administrador</h2>
+      <input type="password" id="senha" placeholder="Senha">
+      <button onclick="entrarAdmin()">Entrar</button>
+
+      <div id="adminPainel" class="hidden">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="mes" placeholder="Mês de férias">
+        <button onclick="salvar()">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
