@@ -1,3 +1,4 @@
+alert("JS ONLINE OK");
 ## Aplicativo Web Gratuito – Mês de Férias
 
 Este é um **aplicativo em formato de site**, totalmente gratuito, com aparência moderna e simples.
@@ -188,3 +189,4 @@ Todos são **100% gratuitos**.
 * Criar painel admin completo
 
 Se quiser, posso **adaptar exatamente ao seu gosto** ou te guiar para publicar agora mesmo.
+
