@@ -1,49 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  max-width: 400px;
-  margin: 50px auto;
+  width: 100%;
+  max-width: 380px;
   background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
 h1, h2 {
   text-align: center;
+  margin-bottom: 15px;
 }
 
-input, button {
+input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin-top: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
 }
 
 button {
-  background: #007bff;
-  color: white;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
   border: none;
+  background: #667eea;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #5563c1;
+  transform: translateY(-1px);
 }
 
-.admin {
-  background: #444;
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+#resultado {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 .hidden {
   display: none;
 }
-* {
-  box-sizing: border-box;
-}
+
+
